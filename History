@@ -33,3 +33,7 @@ Versions 14 and 15 were non-working and full of bugs.
 12/4/2018 Version 18: Changed "Air" material. Added CO2 and ArgonGas to it.
 
 3/5/2018 Version 19: Changed titles of histograms 119-122.
+
+Version 20 was the same as Version 19, but with different numbers of bins, min and max values in histograms.
+
+25/5/2018 Version 21: Histograms and ntuples filled with number of hits per strip. We consider that when the deposited energy in the volume of a strip exceeds 5000 X 3.67 eV [5000 e = signal threshold for a valid hit, 3.67 eV = energy needed for the production of an electron-hole pair], then we have a hit.
